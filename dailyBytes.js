@@ -22,3 +22,9 @@ console.log(yearCheck);
 let test = [1, 3, 5, 3, 6];
 console.log(test.push(7));
 console.log(test);
+
+// Jan. 3: .pop() function
+
+let example = [2,4,5,3,6,7]
+console.log(example.pop())
+console.log(example);
