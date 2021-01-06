@@ -31,7 +31,13 @@
 
 // Jan 4: == vs ===
 
-const year = "2021";
-year == 2021
-  ? console.log("New year new me")
-  : console.log("muct be strictly typed");
+// const year = "2021";
+// year == 2021
+//   ? console.log("New year new me")
+//   : console.log("muct be strictly typed");
+
+// Jan 5: Truthy or Falsy
+const result = 0 == "";
+console.log(result);
+console.log(Boolean(""));
+console.log(Boolean(0));
