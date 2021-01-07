@@ -37,7 +37,19 @@
 //   : console.log("muct be strictly typed");
 
 // Jan 5: Truthy or Falsy
-const result = 0 == "";
-console.log(result);
-console.log(Boolean(""));
-console.log(Boolean(0));
+// const result = 0 == "";
+// console.log(result);
+// console.log(Boolean(""));
+// console.log(Boolean(0));
+
+// Jan 6: Simple ForLoop
+const exampleOne = [1, 3, 4, 5, 7, 9, 2];
+const exampleTwo = [1, 5, 4, 8, 6, 7];
+// Traditional
+for (let i = 0; i < exampleOne.length; i++) {
+  console.log(exampleOne[i]);
+}
+// Simplified ** note, you can use "in" or "of"
+for (var j in exampleTwo) {
+  console.log(exampleTwo[j]);
+}
